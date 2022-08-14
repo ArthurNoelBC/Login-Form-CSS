@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background: #191816;}
+
+.image{position: absolute; left: 729px;}
+
+.image img{
+    position: absolute;
+    width: 636px;
+    height: 656px;
+}
+
+.header{
+    top: 25px;
+    left: 25px;
+    position: absolute;
+}
+
+.area-form{
+    margin: 7% 0 0 10%;
+    width: 500px;
+    position: absolute;
+    height: 500px;
+    background: #24221f;
+}
+
+i{font-size: 35px; color: #ffc632;}
+
+.form-header{position: absolute; margin: 6% 0 0 25%;}
+
+.form-title{
+    position: absolute;
+    width: 145px;
+    font-size: 25px;
+    top: 5px;
+    left: 40px;
+    color: #afb6c2;
+}
+
+.form-summary{
+    margin: 5px 0 0 3px;
+    font-size: 14px;
+    color: #afb6c2;
+    width: 230px;
+} 
+
+.form{position: absolute; margin: 30% 0 0 25%;}
+
+label[for="email"]{color: #afb6c2; margin: 0 0 0 3px;}
+
+label[for="password"]{
+    position: absolute;
+    width: 106px;
+    margin: 37px 0 0 3px;
+    color: #afb6c2;
+}
+
+input[type="text"]{
+    position: absolute;
+    height: 40px;
+    width: 265px;
+    box-sizing: border-box;
+    border: 2px solid #ffc632;
+    border-radius: 10px;
+    background: #24221f;
+    color: #fff;
+}
+
+input[type="password"]{
+    position: absolute;
+    height: 40px;
+    width: 265px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ffc632;
+    border-radius: 10px;
+    background: #24221f;
+    color: #fff;
+}
+
+.informations{position:absolute;}
+
+input[type="checkbox"]{margin: 305px 0 0 125px;}
+
+span{color: #afb6c2; margin-left:2px;}
+
+.reset-password{
+    position: absolute;
+    margin: 305px 0 0 250px;
+    width: 136px;
+    color: #ffc532;
+    text-decoration: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    margin: 35px 0 0 121px;
+    width: 265px;
+    height: 51px;
+    background: #FFC632;
+    color: #24221f;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.register{
+    position: absolute;
+    margin: 15px 0 0 168px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFC632;
+}
